@@ -1,0 +1,13 @@
+[package]
+name = "ef80escape"
+version = "0.1.0"
+edition = "2021"
+authors = ["Jun Wu <quark@lihdd.net>"]
+license = "MIT"
+description = "A domain-specific-language to select commits in a git repo. Similar to Mercurial's revset."
+repository = "https://github.com/quark-zju/ef80escape"
+categories = ["encoding"]
+keywords = ["unicode", "encoding", "surrogate"]
+include = ["/src", "/LICENSE"]
+
+[dependencies]
